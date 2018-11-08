@@ -74,6 +74,9 @@
   </div>
 </nav>
 
+<div class="container">
+    @yeild('content')
+</div>
 
 
 
