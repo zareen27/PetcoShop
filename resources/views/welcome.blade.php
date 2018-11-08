@@ -46,8 +46,8 @@
 
 
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">PetcoShop</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand text-success" href="#">PetcoShop</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -55,20 +55,28 @@
   <div class="collapse navbar-collapse" id="navbarColor02">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-success" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Gallery</a>
+        <a class="nav-link text-success" href="#">Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link text-success" href="#">Pricing</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link text-success" href="#">About</a>
       </li>
     </ul>
+        <div>
+          <button type="button" class="btn btn-outline-primary my-2 my-sm-0">Sign Up</button>
+          <button type="button" class="btn btn-outline-success my-2 my-sm-0">Log In</button>
+          <br>
+
+          </div>
+          <br>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+
+      <input class="form-control outline-success mr-sm-2" type="text" placeholder="Search">
       <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
