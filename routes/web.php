@@ -15,3 +15,7 @@ Route::get('/', function () {
     return view('home');
 });
 
+ Route::get('gallery', function()
+    {
+        return View::make('gallery');
+    });

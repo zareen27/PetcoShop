@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <title>Home Page</title>
+        <title>PetCo Shop</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/litera/bootstrap.min.css">
@@ -45,7 +45,7 @@
         </div>-->
 
 
-
+                                      <!-- Basic Nav Bar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand text-success" href="#">PetcoShop</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +58,7 @@
         <a class="nav-link text-success" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-success" href="#">Gallery</a>
+        <a class="nav-link text-success" href="{{ URL::to('gallery') }}">Gallery</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-success" href="#">Pricing</a>

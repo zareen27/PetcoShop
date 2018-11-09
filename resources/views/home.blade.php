@@ -12,7 +12,7 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="{{ URL::to('/assets/sldr_img/cow.png') }}" alt="First slide">
      <div class="carousel-caption d-none d-md-block">
-      <legend class="text-center "><h2 class="text-light font-bold">Welcome to PetCo Shop!</h2></legend>
+      <legend class="text-center "><h2 class="text-light font-bold">PetCo Shop Online</h2></legend>
        
      </div>
     </div>
@@ -43,6 +43,34 @@
   </a>
 </div>
 
+
+<div class="jumbotron bg-light">
+  <h1 class="display-4 text-success">WELCOME!</h1>
+   <hr>
+  
+    <br>
+    <p class="text-info">With a view to reducing troubles of travelling we provide an online solution to ease the hassles of shopping.</p>
+
+
+<hr>
+
+<legend class="text-success">Our facilities</legend>
+
+<li class="text-info">Pet Delivery</li>
+<li class="text-info">Secured Payments.
+</li>
+<li class="text-info">Assurance.</li>
+<li class="text-info">Discounts.</li>
+<li class="text-info">Product Quality Guaranteed.</li>
+<li class="text-info">We also offer additional requirements for the product you buy**. </li>
+
+</p>
+  <hr class="my-4">
+ 
+  <p class="lead">
+    <a class="btn btn-info btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
 
 
 
