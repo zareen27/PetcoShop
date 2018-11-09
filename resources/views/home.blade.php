@@ -2,7 +2,7 @@
 
 @section('content')
    
-   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+   <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -17,7 +17,7 @@
      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{ URL::to('/assets/sldr_img/dogs.jpg') }}" alt="Second slide">
+      <img class="d-block w-100" src="{{ URL::to('/assets/sldr_img/dogs2.jpg') }}" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
       <legend class="text-center  "><h2 class="text-success font-bold">Loyal Animal Dogs!</h2></legend>
        <p class="font-italic">Hurry up we have brought the best of breeds! <br>
@@ -25,7 +25,7 @@
      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{ URL::to('/assets/sldr_img/cats.jpg') }}" alt="Third slide">
+      <img class="d-block w-100" src="{{ URL::to('/assets/sldr_img/cats2.jpg') }}" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
       <legend class="text-center "><h2 class="text-success font-bold">Cute Cats</h2></legend>
        <p class="text-light font-italic"> All at affordable price <br>

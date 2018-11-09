@@ -12,7 +12,7 @@
         <!-- Styles -->
        
     </head>
-    <body>
+    <body style="background-image:url({{url('/assets/sldr_img/bg2.jpg')}});background-size:cover;background-position:center">
     <!--    <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -82,15 +82,17 @@
   </div>
 </nav>
 
+<!--<div class="container ">-->
 <div class="container">
+  
     @yield('content')
+  
 </div>
 
 
 
 <!--Footer starts-->
 
- <br>
           
             <div class="card-footer text-white bg-success mb-3">
               <div class="card-header">PetcoShop</div>
