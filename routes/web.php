@@ -19,3 +19,15 @@ Route::get('/', function () {
     {
         return View::make('gallery');
     });
+
+ Route::get('userProfile', function()
+    {
+        return View::make('userProfile');
+    });
+ 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('login/{provider}', 'Auth\SocialAccountController@redirectToProvider');
+Route::get('login/{provider}/callback', 'Auth\SocialAccountController@handleProviderCallback');
