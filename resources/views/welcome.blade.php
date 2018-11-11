@@ -61,16 +61,19 @@
         <a class="nav-link text-success" href="{{ URL::to('gallery') }}">Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-success" href="#">Pricing</a>
+        <a class="nav-link text-success" href="{{ URL::to('home') }}">Pricing</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-success" href="#">About</a>
       </li>
     </ul>
-        <div>
-          <button type="button" class="btn btn-outline-primary my-2 my-sm-0" href="{{ URL::to('register') }}">Register</button>
-          <button type="button" class="btn btn-outline-success my-2 my-sm-0" href="#">Log In</button>
+        <div><ul class="navbar-nav mr-auto">
+          <!--<button type="button" class="btn btn-outline-primary my-2 my-sm-0">--> 
+            <li class="nav-item"><a class="nav-link text-success" href="{{ route('register') }}">Register</a></li>
+          <!--<button type="button" class="btn btn-outline-success my-2 my-sm-0">--> 
+            <li class="nav-item"><a class="nav-link text-success" href="{{ URL::to('home') }}">Log In</a></li>
           <br>
+        </ul>
 
           </div>
           <br>
