@@ -9,6 +9,8 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
 
+        <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
+         
         <!-- Styles -->
        
     </head>
@@ -46,32 +48,32 @@
 
 
                                       <!-- Basic Nav Bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand text-success" href="#">PetcoShop</a>
+        <nav class="navbar navbar-expand-lg navbar-info bg-info">
+  <a class="navbar-brand text-light" href="{{ URL::to('/') }}">PetcoShop</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarColor02">
     <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link text-light" href="{{ URL::to('/') }}">Home </a>
+      </li>
       <li class="nav-item active">
-        <a class="nav-link text-success" href="{{ URL::to('/') }}">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-light" href="{{ URL::to('gallery') }}">Gallery<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-success" href="{{ URL::to('gallery') }}">Gallery</a>
+        <a class="nav-link text-light" href="{{ URL::to('home') }}">Pricing</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-success" href="{{ URL::to('home') }}">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-success" href="#">About</a>
+        <a class="nav-link text-light" href="#">About</a>
       </li>
     </ul>
         <div><ul class="navbar-nav mr-auto">
           <!--<button type="button" class="btn btn-outline-primary my-2 my-sm-0">--> 
-            <li class="nav-item"><a class="nav-link text-success" href="{{ route('register') }}">Register</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="{{ route('register') }}">Register</a></li>
           <!--<button type="button" class="btn btn-outline-success my-2 my-sm-0">--> 
-            <li class="nav-item"><a class="nav-link text-success" href="{{ URL::to('home') }}">Log In</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="{{ URL::to('home') }}">Log In</a></li>
           <br>
         </ul>
 
@@ -97,7 +99,7 @@
 <!--Footer starts-->
 
           
-            <div class="card-footer text-white bg-success mb-3">
+            <div class="card-footer text-white bg-info mb-3">
               <div class="card-header">PetcoShop</div>
                 <div class="card-body">
                   <h4 class="card-title">Address</h4>
@@ -110,10 +112,12 @@
             
           </div>
 
-
-
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+     
+      <script type="text/javascript" src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
+      <script type="text/javascript" src="{{asset('js/isotope.pkgd.min.js')}}"></script>
+      <script type="text/javascript" src="{{asset('js/script.js')}}"></script>
+     
+     
 
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
