@@ -55,7 +55,7 @@
   <div class="collapse navbar-collapse" id="navbarColor02">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link text-success" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-success" href="{{ URL::to('home') }}">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-success" href="{{ URL::to('gallery') }}">Gallery</a>
@@ -68,8 +68,8 @@
       </li>
     </ul>
         <div>
-          <button type="button" class="btn btn-outline-primary my-2 my-sm-0">Sign Up</button>
-          <button type="button" class="btn btn-outline-success my-2 my-sm-0">Log In</button>
+          <button type="button" class="btn btn-outline-primary my-2 my-sm-0" href="{{ URL::to('register') }}">Register</button>
+          <button type="button" class="btn btn-outline-success my-2 my-sm-0" href="{{ URL::to('login') }}">Log In</button>
           <br>
 
           </div>
