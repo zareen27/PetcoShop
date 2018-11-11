@@ -69,7 +69,7 @@
     </ul>
         <div>
           <button type="button" class="btn btn-outline-primary my-2 my-sm-0" href="{{ URL::to('register') }}">Register</button>
-          <button type="button" class="btn btn-outline-success my-2 my-sm-0" href="{{ URL::to('login') }}">Log In</button>
+          <button type="button" class="btn btn-outline-success my-2 my-sm-0" href="{{ URL::to(' route('login') ') }}">Log In</button>
           <br>
 
           </div>

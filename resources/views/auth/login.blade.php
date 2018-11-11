@@ -61,8 +61,16 @@
                                     {{ __('Forgot Your Password?') }}
                                 </a>
                             </div>
+
                         </div>
-                        <a href="/login/github"  class="btn btn-primary btn-md">Log in with Github</a>
+                        <br>
+                                <div class="form-group row mb-0">
+                                <div class="col-md-8 offset-md-4">
+                             <p class="card-text">Or</p>
+                             <a href="/login/google"  class="btn btn-danger btn-md text-light">Log in with Google</a>
+                             <a href="/login/github"  class="btn btn-primary btn-md">Log in with Github</a>
+                            </div>
+                         </div>
 
                     </form>
                 </div>
