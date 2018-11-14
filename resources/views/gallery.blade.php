@@ -13,7 +13,7 @@
 		</ul>
 	</div>
 
-	<div class="wallpaper-item">
+	 <div class="wallpaper-item">
 		<div class="item car">
 			<img src="{{ URL::to('/img/car_1.jpg')}}" alt="" height="300" width="300"/>
 		</div>

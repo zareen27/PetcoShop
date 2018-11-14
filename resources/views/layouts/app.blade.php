@@ -22,7 +22,7 @@
 <body  style="background-image:url({{url('/assets/sldr_img/bg2.jpg')}});background-size:cover;background-position:center">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar navbar-laravel bg-success">
-            <div class="container">
+                 <div class="container">
                 <a class="navbar-brand text-light" href="{{ URL::to('/') }}"><h2>PetcoShop</h2></a>
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">

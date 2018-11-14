@@ -12,7 +12,7 @@
         <!-- Styles -->
        
     </head>
-    <body style="background-image:url({{url('/assets/sldr_img/bg2.jpg')}});background-size:cover;background-position:center">
+    <body>
     <!--    <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -46,42 +46,55 @@
 
 
                                       <!-- Basic Nav Bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand text-success" href="#">PetcoShop</a>
+
+<div class="row">
+
+<a href="http://www.dogbazar.org" class="logo-main"><img src="{{ URL::to('/assets/logo.png') }}" alt="" height="70" /></a>
+<div class="col-md-4" style="background-image:url({{url('/assets/sldr_img/bg5.jpg')}});background-position:center">
+</div>
+
+<div class="col-md-6" style="background-image:url({{url('/assets/sldr_img/bg5.jpg')}});background-position:center">
+<div class="container" >
+   <div class="row mr-auto" >
+    
+        <button type="button" href="{{ route('register') }}"   class="btn btn-link">Register</button>
+  
+          <button type="button" href="{{ URL::to('home') }}" class="btn btn-link">Log In</button>
+          <form class="form-inline my-2 my-lg-0">
+
+          <input class="form-control outline-success mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+           <button type="button"    class="btn btn-link">Contact:0199999999</button>
+  
+    </div>
+  </div>
+</div>
+</div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor02">
+  <div class="collapse navbar-collapse" id="navbarColor02" >
     <ul class="navbar-nav mr-auto">
+
       <li class="nav-item active">
-        <a class="nav-link text-success" href="{{ URL::to('/') }}">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-light" href="{{ URL::to('/') }}">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-success" href="{{ URL::to('gallery') }}">Gallery</a>
+        <a class="nav-link text-light" href="{{ URL::to('gallery') }}">Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-success" href="{{ URL::to('home') }}">Pricing</a>
+        <a class="nav-link text-light" href="{{ URL::to('home') }}">Pricing</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-success" href="#">About</a>
+        <a class="nav-link text-light" href="#">About</a>
       </li>
     </ul>
-        <div><ul class="navbar-nav mr-auto">
-          <!--<button type="button" class="btn btn-outline-primary my-2 my-sm-0">--> 
-            <li class="nav-item"><a class="nav-link text-success" href="{{ route('register') }}">Register</a></li>
-          <!--<button type="button" class="btn btn-outline-success my-2 my-sm-0">--> 
-            <li class="nav-item"><a class="nav-link text-success" href="{{ URL::to('home') }}">Log In</a></li>
-          <br>
-        </ul>
-
-          </div>
-          <br>
-    <form class="form-inline my-2 my-lg-0">
-
-      <input class="form-control outline-success mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
+        
   </div>
 </nav>
 
