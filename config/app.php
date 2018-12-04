@@ -162,6 +162,7 @@ return [
         Laravel\Socialite\SocialiteServiceProvider::class,
 
          Collective\Html\HtmlServiceProvider::class,
+          Larapack\Hooks\HooksServiceProvider::class,
 
 
         
@@ -177,6 +178,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+         TCG\Voyager\VoyagerServiceProvider::class,
          
 
     ],
@@ -230,7 +233,7 @@ return [
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
          'Form' => Collective\Html\FormFacade::class,
          'Html' => Collective\Html\HtmlFacade::class,
-
+      
 
     ],
 

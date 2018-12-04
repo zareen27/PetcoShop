@@ -19,11 +19,11 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body  style="background-image:url({{url('/assets/sldr_img/bg2.jpg')}});background-size:cover;background-position:center">
+<body  style="background-image:url({{url('/img/bg2.jpg')}});background-size:cover;background-position:center">
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar navbar-laravel bg-success">
+        <nav class="navbar navbar-expand-md navbar navbar-laravel ">
                  <div class="container">
-                <a class="navbar-brand text-light" href="{{ URL::to('/') }}"><h2>PetcoShop</h2></a>
+                <a class="navbar-brand text-primary" href="{{ URL::to('/') }}"><h2>PetcoShop</h2></a>
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -40,11 +40,11 @@
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="{{ route('login') }}"><h4>{{ __('Login') }}</h4></a>
+                                <a class="nav-link text-primary" href="{{ route('login') }}"><h4>{{ __('Login') }}</h4></a>
                             </li>
                             <li class="nav-item">
                                 @if (Route::has('register'))
-                                    <a class="nav-link text-light" href="{{ route('register') }}"><h4>{{ __('Register') }}</h4></a>
+                                    <a class="nav-link text-primary" href="{{ route('register') }}"><h4>{{ __('Register') }}</h4></a>
                                 @endif
                             </li>
                         @else

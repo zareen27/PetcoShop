@@ -54,6 +54,8 @@ return [
             'prefix_indexes' => true,
             'strict' => true,
             'engine' => null,
+            'version'     => 8,
+
         ],
 
         'pgsql' => [

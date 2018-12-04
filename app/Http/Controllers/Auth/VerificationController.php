@@ -18,14 +18,21 @@ class VerificationController extends Controller
     |
     */
 
+
+
     use VerifiesEmails;
+
+
+     public function index(){
+        return view('auth.verify');
+     }
 
     /**
      * Where to redirect users after verification.
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/user';
 
     /**
      * Create a new controller instance.

@@ -28,8 +28,11 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
-
+    protected $redirectTo = '/verify';
+     
+     public function index(){
+        return view('auth.register');
+     }
     /**
      * Create a new controller instance.
      *
@@ -68,5 +71,20 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+    }
+
+
+     protected function store(array $data)
+    {
+        $user =new User();
+        $user -> name = request ('name');
+        $user -> email = request ('email');
+        
+        $user -> password = request ('password');
+        $user->save();
+        return $redirectTo('/verify');
+        
+    
+
     }
 }

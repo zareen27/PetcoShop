@@ -12,7 +12,7 @@
         <!-- Styles -->
        
     </head>
-    <body>
+    <body style="background-image:url({{url('/assets/sldr_img/bg5.jpg')}});background-size:cover;background-position:center">
     <!--    <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -48,35 +48,64 @@
                                       <!-- Basic Nav Bar-->
 
 <div class="row">
-
+<br>
 <a href="http://www.dogbazar.org" class="logo-main"><img src="{{ URL::to('/assets/logo.png') }}" alt="" height="70" /></a>
-<div class="col-md-4" style="background-image:url({{url('/assets/sldr_img/bg5.jpg')}});background-position:center">
-</div>
+<br>
 
-<div class="col-md-6" style="background-image:url({{url('/assets/sldr_img/bg5.jpg')}});background-position:center">
-<div class="container" >
-   <div class="row mr-auto" >
-    
-        <button type="button" href="{{ route('register') }}"   class="btn btn-link">Register</button>
+<div  class="col  bg-light" >
   
-          <button type="button" href="{{ URL::to('home') }}" class="btn btn-link">Log In</button>
+   <div class="row ml-auto col-auto float-right " >
+        <ul class="nav nav-pills   my-2 mr-auto">
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portals</a>
+              <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 35px, 0px); top: 0px; left: 0px; will-change: transform;">
+                <a class="dropdown-item" href="/admin">Admin</a>
+                
+                
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+          </ul>
+                 
+       <button type="button"   class="btn btn-link"> <a class="btn-link"  href="/register">Register
+        </a></button>
+  
+          <button type="button"  class="btn btn-link"> <a class="btn-link"  href="/login">Log In</a></button>
           <form class="form-inline my-2 my-lg-0">
 
           <input class="form-control outline-success mr-sm-2" type="text" placeholder="Search">
           <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
           </form>
-           <button type="button"    class="btn btn-link">Contact:0199999999</button>
+          
+          
+        
+           <button type="button"    class="btn btn-link">Contact : +0199999999</button>
   
-    </div>
+  
   </div>
+
+  </div>
+
 </div>
 </div>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info" >
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <a class="navbar-brand visible-xs" href="">PetCo Shop</a>
+        <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>-->
+    </div>
 
   <div class="collapse navbar-collapse" id="navbarColor02" >
     <ul class="navbar-nav mr-auto">
@@ -91,28 +120,38 @@
         <a class="nav-link text-light" href="{{ URL::to('home') }}">Pricing</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="#">About</a>
+        <a class="nav-link text-light" href="{{ URL::to('gallery') }}">About</a>
       </li>
     </ul>
-        
+    
+    
   </div>
 </nav>
 
 <!--<div class="container ">-->
-<div class="container">
+<div >
   
     @yield('content')
   
 </div>
 
-
+<br>
 
 <!--Footer starts-->
 
           
-            <div class="card-footer text-white bg-success mb-3">
+            <div class="card-footer text-white bg-info mb-3">
               <div class="card-header">PetcoShop</div>
                 <div class="card-body">
+                  <div class="footer-content container">
+                   <ul>
+                    <li>Follow Me:</li>
+                    <li><a href="#"><i class="fa fa-globe"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+              </div>
                   <h4 class="card-title">Address</h4>
                      <p class="card-text"> House No, 30 Rd No. 3, Dhaka 1205<br>
                             Hours: <br>

@@ -9,12 +9,12 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
 
-        <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/gallery.css')}}">
          
         <!-- Styles -->
        
     </head>
-    <body style="background-image:url({{url('/assets/sldr_img/bg2.jpg')}});background-size:cover;background-position:center">
+    <body style="background-image:url({{url('/assets/sldr_img/bg8.png')}});background-size:cover;background-position:center">
     <!--    <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -66,7 +66,7 @@
         <a class="nav-link text-light" href="{{ URL::to('home') }}">Pricing</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="#">About</a>
+        <a class="nav-link text-light" href="{{ URL::to('gallery2') }}">About</a>
       </li>
     </ul>
         <div><ul class="navbar-nav mr-auto">
@@ -115,7 +115,7 @@
      
       <script type="text/javascript" src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
       <script type="text/javascript" src="{{asset('js/isotope.pkgd.min.js')}}"></script>
-      <script type="text/javascript" src="{{asset('js/script.js')}}"></script>
+      <script type="text/javascript" src="{{asset('js/gallery.js')}}"></script>
      
      
 
