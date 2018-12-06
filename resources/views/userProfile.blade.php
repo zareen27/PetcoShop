@@ -56,18 +56,8 @@
 
 
                 <div class="products text-center">
-                    @foreach($products as $product)
-                    <div class="product">
-                        <a href="#"><img src="{{ URL::to('/img/bike_3.jpg') }}" alt="product"></a>
-                        <a href="#"><div class="product-name">{{$product->name}}</div></a>
-                        <div class="product-price">{{$product->price}}</div>
-                    </div>
-                    @endforeach
-                    <div class="product">
-                        <a href="#"><img src="{{ URL::to('/img/bike_1.jpg') }}" alt="product"></a>
-                        <a href="#"><div class="product-name">American ShortHair</div></a>
-                        <div class="product-price">$49.99</div>
-                    </div>
+                    
+                    
                     <div class="product">
                         <a href="#"><img src="{{ URL::to('/img/bike_2.jpg') }}" alt="product"></a>
                         <a href="#"><div class="product-name">Bengal Cat</div></a>
@@ -104,7 +94,7 @@
                 </div> <!-- end products -->
 
                 <div class="text-center button-container">
-                    <a href="#" class="button">View more products</a>
+                    <a href="{{route('shop.index')}}" class="button">View more products</a>
                 </div>
 
             </div> <!-- end container -->

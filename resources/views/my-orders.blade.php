@@ -9,7 +9,7 @@
 @section('content')
 
     @component('components.breadcrumbs')
-        <a href="/">Home</a>
+        <a href="/userProfile">Home</a>
         <i class="fa fa-chevron-right breadcrumb-separator"></i>
         <span>My Orders</span>
     @endcomponent
