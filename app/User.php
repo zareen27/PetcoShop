@@ -37,4 +37,9 @@ class User extends \TCG\Voyager\Models\User
     public function accounts(){
     return $this->hasMany('App\LinkedSocialAccount');
     }
+
+     public function orders()
+    {
+        return $this->hasMany('App\Order');
+    }
 }

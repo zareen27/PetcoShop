@@ -8,7 +8,9 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-
+         <link rel="stylesheet" type="text/css" href="{{asset('css/skel.css')}}">
+          <link rel="stylesheet" type="text/css" href="{{asset('css/style2.css')}}">
+           <link rel="stylesheet" type="text/css" href="{{asset('css/style-xlarge.css')}}">
         <!-- Styles -->
        
     </head>
@@ -135,7 +137,7 @@
   
 </div>
 
-<br>
+
 
 <!--Footer starts-->
 
@@ -145,8 +147,8 @@
                 <div class="card-body">
                   <div class="footer-content container">
                    <ul>
-                    <li>Follow Me:</li>
-                    <li><a href="#"><i class="fa fa-globe"></i></a></li>
+                    <li>Follow Us:</li>
+                    <li><i class="fa fa-globe"></i></li>
                     <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                     <li><a href="#"><i class="fa fa-github"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -163,7 +165,10 @@
           </div>
 
 
-
+     <script type="text/javascript" src="{{asset('js/skel.min.js')}}"></script>
+     <script type="text/javascript" src="{{asset('js/skel-layers.min.js')}}"></script>
+     <script type="text/javascript" src="{{asset('js/init.js')}}"></script>
+     
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 

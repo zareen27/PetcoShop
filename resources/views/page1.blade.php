@@ -42,14 +42,75 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
- <br>
- <div class="container bg-info">
+ 
+
+ <section id="one" class="wrapper style1 special">
+        <div class="container">
+          <header class="major">
+            <h2 >Welcome to Petco Shop Online</h2>
+            <p>Your would be choice for buying favourite pets and shop for their daily necessities!</p>
+            <h3 class="text-success">Brief Overview of our products</h3>
+          </header>
+          <div class="row 150%">
+            <div class="4u 12u$(medium)">
+              <section class="box">
+                <img class="card-img-top" src="{{ URL::to('/img/products/desktop-18.jpg') }}" alt="Card image cap">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
+              </section>
+            </div>
+            <div class="4u 12u$(medium)">
+              <section class="box">
+                <img class="card-img-top" src="{{ URL::to('/img/products/laptop-5.jpg') }}" alt="Card image cap">
+                <h3>Consectetur adipisicing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat debitis maxime.</p>
+              </section>
+            </div>
+            <div class="4u$ 12u$(medium)">
+              <section class="box">
+                <img class="card-img-top" src="{{ URL::to('/img/products/camera-4.jpg') }}" alt="Card image cap">
+                <h3>Adipisicing elit totam</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque eveniet, nesciunt molestias. Ipsam, voluptate vero.</p>
+              </section>
+            </div>
+
+            <!--New--> 
+            <div class="4u 12u$(medium)">
+              <section class="box">
+                <img class="card-img-top" src="{{ URL::to('/img/products/appliance-2.jpg') }}" alt="Card image cap">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
+              </section>
+            </div>
+            <div class="4u 12u$(medium)">
+              <section class="box">
+                <img class="card-img-top" src="{{ URL::to('/img/products/appliance-6.jpg') }}" alt="Card image cap">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
+              </section>
+            </div>
+            <div class="4u 12u$(medium)">
+              <section class="box">
+                <img class="card-img-top" src="{{ URL::to('/img/products/phone-8.jpg') }}" alt="Card image cap">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
+              </section>
+            </div>
+
+
+
+          </div>
+        </div>
+      </section>
+ <section id="one" class="wrapper style1 special">
+        <div class="container">
 <div class="jumbotron bg-light">
-  <h1 class="display-4 text-success">WELCOME!</h1>
+  <h1 class="display-4 text-success">About Us!</h1>
    <hr>
   
     <br>
     <p class="text-info">With a view to reducing troubles of travelling we provide an online solution to ease the hassles of shopping.</p>
+    <p class="text-info">PetCo is a world wide chain for providing best products. The store is a sister concern for the PetCo chain first delivering products in BANGLADESH currently.</p>
 
 
 <hr>
@@ -72,250 +133,91 @@
   </p>
 </div>
 </div>
+</section>
 
-
- 
-
-<div class="row ">
-
-        <div class="col">
-         <div class="card border-info" style="width: 24rem;">
-          <img class="card-img-top" src="{{ URL::to('/assets/sldr_img/dogs2.jpg') }}" alt="Card image cap">
-         <div class="card-body">
-           <h5 class="card-title text-info">Join Us at PetCo Shop!!</h5>
-           <p class="card-text"><p class="text-info">We provide all kind of accessories for your adorable pets.<br>Drop by to enjoy our service.</p></p>
-          <a href="Home.html" class="btn btn-info">More info</a>
-           </div>
-           </div>
-        </div>
-
-       
-        <div class="col">
-          <br>
-          <br>
-        <div class="card bg-info" style="width: 24rem;">
-           <img class="card-img-top" src="{{ URL::to('/assets/sldr_img/dogs2.jpg') }}" alt="Card image cap">
-         <div class="card-body">
-           <h5 class="card-title text-light">Soothing Rooftop View</h5>
-           
-          <a href="#" class="btn btn-light text-info">More Info</a>
-           </div>
-        </div>
-      </div>
-    
-     
-          <div class="col">
-        <div class="card border-primary" style="width: 24rem;">
-           <img class="card-img-top" src="{{ URL::to('/assets/sldr_img/dogs2.jpg') }}" alt="Card image cap">
-         <div class="card-body">
-           <h5 class="card-title text-primary">Luxurious Inner View</h5>
-           <p class="card-text"><p class="text-primary">Extremely comfortable dine is guaranted<br>
-            Ready for all the occassions.Dine with luxury at affrdable price.</p></p>
-          <a href="#" class="btn btn-info">More info</a>
-            </div>
-        </div>
-      </div>
-
-     <div class="col">
-              <br>
-           <div class="card border-info" style="width: 24rem;">
-           <img class="card-img-top" src="{{ URL::to('/assets/sldr_img/dogs2.jpg') }}" alt="Card image cap">
-            <div class="card-body">
-           <h5 class="card-title text-info">Mouth Watering Cuisines</h5>
-           
-          <a href="#" class="btn btn-info">More info</a>
-                  </div>
-              </div>
-           </div>
-
-
-
-   </div>
- 
- 
-<!-----Second Section------>
-             <div class="row ">
-    <br>
- 
-              <div class="col">
-              <br>
-           <div class="card border-info" style="width: 50rem;">
-           <img class="card-img-top" src="{{ URL::to('/assets/sldr_img/dogs2.jpg') }}" alt="Card image cap">
-            <div class="card-body">
-           <h5 class="card-title text-info">Mouth Watering Cuisines</h5>
-           
-          <a href="#" class="btn btn-info">More info</a>
-                  </div>
-              </div>
-           </div>
-
-
-
-
-           
-
-           
-
-            
-    
-
-            
-
-      <div class="col">
-          <br>
-       <div class="card border-primary" style="width: 50rem;">
-           <img class="card-img-top" src="{{ URL::to('/assets/sldr_img/dogs2.jpg') }}" alt="Card image cap">
-         <div class="card-body">
-           <h5 class="card-title text-primary">Exquisite Parties</h5>
-           
-          <a href="#" class="btn btn-info">More info</a>
-                  
-            
-        </div>
-       </div>
-     </div>
-    </div>
   
 
+<!--Practice-->
 
 
-
-
-
-
-                               <!-----Third Section------>
-
-
-
-   <div class="row ">
-    <br>
- 
-              <div class="col">
-              <br>
-           <div class="card border-info" style="width: 24rem;">
-           <img class="card-img-top" src="{{ URL::to('/assets/sldr_img/dogs2.jpg') }}" alt="Card image cap">
-            <div class="card-body">
-           <h5 class="card-title text-info">Mouth Watering Cuisines</h5>
-           
-          <a href="#" class="btn btn-info">More info</a>
-                  </div>
-              </div>
-           </div>
-
-
-
-
-           <div class="col">
-              <br>
-           <div class="card border-info" style="width: 24rem;">
-           <img class="card-img-top" src="{{ URL::to('/assets/sldr_img/dogs2.jpg') }}" alt="Card image cap">
-            <div class="card-body">
-           <h5 class="card-title text-info">Mouth Watering Cuisines</h5>
-           
-          <a href="#" class="btn btn-info">More info</a>
-                  </div>
-              </div>
-           </div>
-
-
-           
-
-            
-    <div class="col">
-      <br>
-       <div class="card bg-info" style="width: 24rem;">
-           <img class="card-img-top" src="{{ URL::to('/assets/sldr_img/dogs2.jpg') }}" alt="Card image cap">
-         <div class="card-body">
-           <h5 class="card-title text-light">Expert Chefs</h5>
-           <p class="card-text"><p class="text-light">Its all about Art of Cooking.<br>
-           Some of the expert chefs are ensuring the quality of the food per meal everyday</p>
-         </p>
-          <a href="#" class="btn btn-light text-info">More info</a>
+<section id="one" class="wrapper style1 special">
+        <div class="container">
+          <header class="major">
+            <h2 class="text-info">Additional Products and services! </h2>
+            <p>Lorem ipsum dolor sit amet, delectus consequatur, similique quia!</p>
+          </header>
+          <div class="row 150%">
+            <div class="4u 12u$(medium)">
+              <section class="box">
+                <img class="card-img-top" src="{{ URL::to('/img/products/appliance-4.jpg') }}" alt="Card image cap">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
+              </section>
+            </div>
+            <div class="4u 12u$(medium)">
+              <section class="box">
+                <img class="card-img-top" src="{{ URL::to('/img/bike_spa.jpg') }}" alt="Card image cap">
+                <h3>Consectetur adipisicing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat debitis maxime.</p>
+              </section>
+            </div>
+            <div class="4u$ 12u$(medium)">
+              <section class="box">
+                <img class="card-img-top" src="{{ URL::to('/img/products/tv-8.jpg') }}" alt="Card image cap">
+                <h3>Adipisicing elit totam</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque eveniet, nesciunt molestias. Ipsam, voluptate vero.</p>
+              </section>
+            </div>
           </div>
         </div>
-     </div>
+      </section>
 
-            
 
-      <div class="col">
-          <br>
-       <div class="card border-primary" style="width: 24rem;">
-           <img class="card-img-top" src="{{ URL::to('/assets/sldr_img/dogs2.jpg') }}" alt="Card image cap">
-         <div class="card-body">
-           <h5 class="card-title text-primary">Exquisite Parties</h5>
-           
-          <a href="#" class="btn btn-info">More info</a>
-                  
-            
-        </div>
-       </div>
-     </div>
-    </div>
+
+
+
+
 
 
 
 
 <!------FeedBack Section --->
 
-<br>
-<button type="button" class="btn btn-info btn-lg btn-block"><legend>Feedback Section</legend></button>
-<br>
-
-<div class="container bg-light ">
 
 
-  <form>
-  <fieldset>
-    
-    
-    <div class="form-group">
-      <br>
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    </div>
-    
-    
-    
-    <div class="form-group">
-      <label for="exampleTextarea">Message</label>
-      <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-    </div>
-    <div class="form-group">
-      <label for="exampleInputFile">File input</label>
-      <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-      <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
-    </div>
-    <fieldset class="form-group">
-      <legend>Ratings</legend>
-      <div class="form-check">
-        <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-         Good
-        </label>
-      </div>
-      <div class="form-check">
-      <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
-         Better
-        </label>
-      </div>
-      <div class="form-check ">
-      <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
-         Best
-        </label>
-      </div>
-    </fieldset>
-    
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </fieldset>
-</form>
-<br>
-
-  </div>
 
 
+    <!-- Three -->
+      <section id="three" class="wrapper style3 special">
+        <div class="container">
+          <header class="major">
+            <h2>Contact us today!</h2>
+            <p>The page is responsive. Typically replies message. Delivery available 24/7</p>
+          </header>
+        </div>
+        <div class="container 50%">
+          <form action="#" method="post">
+            <div class="row uniform">
+              <div class="6u 12u$(small)">
+                <input name="name" id="name" value="" placeholder="Name" type="text">
+              </div>
+              <div class="6u$ 12u$(small)">
+                <input name="email" id="email" value="" placeholder="Email" type="email">
+              </div>
+              <div class="12u$">
+                <textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
+              </div>
+              <div class="12u$">
+                <ul class="actions">
+                  <li><input value="Send Message" class="special big" type="submit"></li>
+                </ul>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+    
 
 
 

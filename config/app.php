@@ -180,7 +180,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
          TCG\Voyager\VoyagerServiceProvider::class,
-         
+         Laravel\Cashier\CashierServiceProvider::class,
 
     ],
 

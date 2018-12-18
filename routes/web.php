@@ -69,6 +69,10 @@ Route::post('/cart/switchToSaveForLater/{product}', 'CartController@switchToSave
 
 Route::delete('/saveForLater/{product}', 'SaveForLaterController@destroy')->name('saveForLater.destroy');
 Route::post('/saveForLater/switchToCart/{product}', 'SaveForLaterController@switchToCart')->name('saveForLater.switchToCart');
+Route::post(
+    'braintree/webhook',
+    '\Laravel\Cashier\Http\Controllers\WebhookController@handleWebhook'
+);
 
 
 

@@ -88,7 +88,7 @@ class ProductsTableSeeder extends Seeder
                 'price' => rand(79, 249),
                 'description' => 'Lorem ' . $i . ' ipsum dolor sit amet, consectetur adipisicing elit. Ipsum temporibus iusto ipsa, asperiores voluptas unde aspernatur praesentium in? Aliquam, dolore!',
                 'image' => 'products/dummy/camera-'.$i.'.jpg',
-                'images' => '["products\/dummy\/camera-2.jpg","products\/dummy\/camera-3.jpg","products\/dummy\/camera-4.jpg"]',
+                'images' => '["products\/dummy\/laptop-2.jpg","products\/dummy\/laptop-3.jpg","products\/dummy\/laptop-4.jpg"]',
             ])->categories()->attach(6);
         }
 
@@ -101,7 +101,7 @@ class ProductsTableSeeder extends Seeder
                 'price' => rand(79, 149),
                 'description' => 'Lorem ' . $i . ' ipsum dolor sit amet, consectetur adipisicing elit. Ipsum temporibus iusto ipsa, asperiores voluptas unde aspernatur praesentium in? Aliquam, dolore!',
                 'image' => 'products/dummy/appliance-'.$i.'.jpg',
-                'images' => '["products\/dummy\/appliance-2.jpg","products\/dummy\/appliance-3.jpg","products\/dummy\/appliance-4.jpg"]',
+                'images' => '["products\/dummy\/laptop-2.jpg","products\/dummy\/laptop-3.jpg","products\/dummy\/laptop-4.jpg"]',
             ])->categories()->attach(7);
         }
 
