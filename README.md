@@ -1,1 +1,1 @@
-Petco Shop is a laravel Application for selling animals online.
+This a laravel app for selling pets online. The app has a user and an admin panel.I have tried to use all the latest technologies released during the time of creation of these app. As this project was solely done by me, I tried to keep it upto to date as long as it was possible. I used sass, nodejs, bootstrap framework, jquery along with traditional css and html5. For admin panel I used voyager admin and for payment I integrated stripe api.
